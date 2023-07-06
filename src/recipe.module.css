@@ -1,0 +1,30 @@
+.font{
+    width: 600px;
+    height: 450px;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    border-radius: 15px;
+    
+}
+.recipe{
+    border-radius: 80px;
+    box-shadow: 10px 30px 40px rgb(71,71,71);
+    margin: 30px;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 35%;
+    border: 2px solid black;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.image{
+    border-radius: 50%;
+    border: 1px solid black;   
+}
+.paragraph{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
